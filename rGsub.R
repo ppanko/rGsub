@@ -4,7 +4,7 @@
 ### Modified: 2018-DEC-10
 
 rGsub <- function(pattern, replacement, x, ...) {
-    ## Initialize global variables for pattern/replacement length
+    ## Initialize local variables for pattern/replacement length
     .pl <- length(pattern)
     .rl <- length(replacement)
     ## If more replacements than patterns, break
